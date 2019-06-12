@@ -1,0 +1,39 @@
+<%@ page import="java.net.URLEncoder"%>
+<%@ page import="java.io.FileInputStream"%>
+<%@ page import="java.io.File"%>
+<%@ page language="java" contentType="text/html;charset=utf-8" pageEncoding="utf-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <title>File Download..</title>
+</head>
+<body>
+<pre>
+<h1>Download the FILE!!!</h1>
+<%
+String fileName=request.getParameter("file_name");
+String savePath="./filebox";
+String DownPath=context.getRealPath(savePath);
+
+System.out.print("다운로드 위치 : "+DownPath);
+
+String FilePath = DownPath+"\\"+fileName;
+File oFile = new File(FilePath);
+
+byte[] b = new byte[5*1024*1024];
+
+FileInputStream in = new FileInputStream(oFile);
+
+String MimeType = getServletContext().getMimeType(FilePath);
+
+
+
+%>
+
+
+</pre>
+</body>
+
+</html>

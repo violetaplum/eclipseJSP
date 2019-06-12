@@ -1,0 +1,78 @@
+<%-- table 태그 등을 사용해서 작성한 input.jsp 와 output 화면 구성은 5점 -----%>
+<%-- validation 코딩은 총 10점 (부분점수 있음.) ------------------------------%>
+<%@ page contentType="text/html;charset=euc-kr" %>
+<html>
+<head>
+<title>나이 계산</title>
+<meta http-equiv='content-type' content='text/html; charset=euc-kr'>
+<script language='javascript'>
+
+    function check(){
+        var name = document.myform.name.value;
+        var birth_year = document.myform.birth_year.value;
+		var len = birth_year.length;
+<%-- 이름에 아무런 값이 없으면 체크하는 부분 1점 -----------------------------%>
+        if (name == ''){
+            alert('이름을 입력하세요.');
+			document.myform.name.focus();
+	       return false;
+        }
+
+<%-- 생년의 유효성 체크하는 부분  각 2점 -----------------------------------------%>
+          if (len == 0)
+			 {
+					      alert("생년을 입력해 주세요!")
+					      document.myform.birth_year.focus()
+					      return false;
+		    }
+			  else if (birth_year < 0) 
+					  {
+					      alert("음수값은 안됩니다. 다시 입력하세요!")
+					      document.myform.birth_year.focus()
+					      return false;
+					  }
+					  else if (len > 4 || len < 4 )
+					  {
+					      alert("생년은 4자리로 입력하세요!")
+					      document.myform.birth_year.focus()
+					      return false;
+					  }
+					 else{ return true;}
+  }
+      
+  
+    function save(){
+        if (check()) document.myform.submit();
+    }
+</script>
+</head>
+
+<body>
+    <form name='myform' method='post' action='output.jsp'>
+    	<table width='400' cellpadding='1' cellspacing='1' border='1'>
+    		<tr>
+        		<td width='200'>
+        		    이름
+    		    </td>
+        		<td width='200'>
+        		    <input type='text' name='name' value=''>
+        		</td>
+    		</tr>
+    		<tr>
+        		<td width = '200'>생년(4자리)</td>
+        		<td>
+           		<input type='text' name='birth_year' value=''
+            		       maxlength='4'>
+        		</td>
+    		</tr>
+    		<tr>
+    		<tr>
+        		<td colspan='2' align='center'>
+        		    <input type='button' value='저장'
+        		           onclick='javascript:save()'>
+    		    </td>
+    		</tr>
+    	</table>
+    </form>
+</body>
+</html>

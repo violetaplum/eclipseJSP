@@ -1,0 +1,126 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.ResultSet" %>
+<%@page import="java.util.ArrayList" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("utf-8");%>
+<style>
+  body
+  {
+    background: #c166a1;
+    align:center;
+  }
+  </style>
+ 
+<%
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+String email = request.getParameter("email");
+
+
+%>
+
+<%
+Connection conn = null;
+String url = "jdbc:oracle:thin:@localhost:1521:xe";
+String user = "hr";
+String password = "hr";
+PreparedStatement ps1 = null;
+PreparedStatement ps2 = null;
+ArrayList<String> array = new ArrayList<>();
+
+try
+{
+  Class.forName("oracle.jdbc.driver.OracleDriver");
+  conn = DriverManager.getConnection(url,user,password);
+  String str = "select distinct department_name from departments natural join employees";
+  String str2 = "select e.employee_id,e.first_name,e.salary,"
+		  +" e.hire_date, d.department_name "
+		  +" from employees e, departments d "
+		  +" where e.department_id = d.department_id "
+		  +" and d.department_name = ?";
+  ps1=conn.prepareStatement(str);
+  ResultSet rss = ps1.executeQuery(); 
+  
+  
+  ps2 = conn.prepareStatement(str2);
+  
+  
+  
+  ResultSet rss2 = ps2.executeQuery();
+  
+  while(rss.next())
+	{
+		array.add(rss.getString("department_name"));
+	}
+ 
+   for(int i=0;i<array.size();i++)
+   {
+	   out.println(array.get(i));
+   }
+   
+   %>
+   <table border=2>
+   <tr>
+   <td  colspan=5> 검색할 부서를 선택하세요 
+   <select name="select" value="select" id="select">
+   <%
+   for(int i=0;i<array.size();i++)   
+   {%> 
+	   <option value="${i}">
+	   <%=(String)array.get(i)%>
+	   </option>
+	<%
+	}
+   
+   %>
+   </select>
+   <input type="button" value="검색" onclick="search()">
+   </td>
+   </tr>
+   <tr><td>사원아이디</td><td>이름</td><td>급여</td><td>입사일</td><td>부서명</td></tr>
+   <%
+   
+   while(rss2.next())
+   {
+	   %>
+	   <tr><td><%=rss.getString("EMPLOYEE_ID") %></td><td>이름</td><td>급여</td><td>입사일</td><td>부서명</td></tr>
+	   <%
+   }
+   
+   %>
+   </table>
+   
+   
+   
+   
+   
+   <%
+   
+}
+catch(Exception e)
+{
+  e.getStackTrace();
+}
+finally
+{
+  try
+  {
+    if(ps1!=null)
+    {
+      ps1.close();
+    }
+    if(conn!=null)
+    {
+      conn.close();
+    }
+  }
+  catch(Exception e2)
+  {
+    e2.getStackTrace();
+  }
+}
+
+%>

@@ -1,0 +1,36 @@
+<%@ page import="java.util.*"%>
+<%@ page language"java" contentType="text/html;charset=utf-8"%>
+<html>
+<title>ElScope</title>
+
+  <head>
+
+  </head>
+  <body>
+<%
+
+  pageContext.setAttribute("page","pagelove");
+  request.setAttribute("req","reqlove");
+  session.setAttribute("ses","seslove");
+  application.setAttribute("app","applove");
+  
+  out.println((String)pageContext.getAttribute("page"));
+  out.println((String)request.getAttribute("req"));
+  out.println((String)session.getAttribute("ses"));
+  out.println((String)application.getAttribute("app"));
+
+%>
+<pre>
+
+${pageScope.page}
+
+${sessionScope.ses}
+
+${requestScope.req}
+
+${applicationScope.app}
+
+</pre>
+
+  </body>
+</html>

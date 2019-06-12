@@ -1,0 +1,59 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("utf-8");%>
+
+<%
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+String email = request.getParameter("email");
+
+
+%>
+
+<%
+
+%>
+<table border=2>
+  <tr>
+    <th>
+      아이디
+    </th>
+    <th>
+      이름
+    </th>
+    <th>
+      전화
+    </th>
+    <th>
+      입사일
+    </th>
+  </tr>
+  <%
+  String sqlstr1 = "select * from teltable5";
+  
+  //String sqlstr1 = "select* from TelTable5 where id=1";
+
+  while(rs1.next())
+  {
+    %>
+    <tr>
+      <td>
+        <%=rs1.getInt("id")%>
+      </td>
+      <td>
+        <%=rs1.getString("name")%>
+      </td>
+      <td>
+        <%=rs1.getString("tel")%>
+      </td>
+      <td>
+        <%=rs1.getDate("d")%>
+      </td>
+    </tr>
+  <%
+  }
+  %>
+</table>

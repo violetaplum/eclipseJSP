@@ -1,0 +1,35 @@
+<%@page import="java.util.*" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="utf-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+function get()
+{
+	var name = getElementById("name")
+  var year = (new Date().getFullYear())-getElementById("year")
+
+  if()
+}
+</script>
+<style>
+body
+{
+  background: #a9b616;
+
+}
+
+</style>
+  </head>
+<body>
+  <form action="./outputAge.jsp" method="get">
+  <h1>
+  이름 : <input id="name" type="text" name="name" /><br />
+  생년 : <input id="year" type="number" name="year" value="2019" /><br />
+<input type="submit" value="submit" onclick="get()">
+    </form>
+  </body>
+</html>
+<!-- min="1900" max="2099" step="1"  -->

@@ -1,0 +1,25 @@
+package sawonpkg;
+//import java.io.Serializable;
+
+public class Sawon {
+//implements java.io.Serializale
+	private String name;
+	private String age;
+	//인자없는 생성자, getter setter 만들기
+	public Sawon() {}
+	public String getName() {
+		return this.name;
+	}
+	public String getAge() {
+		return this.age;
+	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public void setAge(String age)
+	{
+		this.age=age;
+	}
+
+}

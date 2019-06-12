@@ -1,0 +1,41 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.ResultSet" %>
+<%@page import="java.util.ArrayList" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("utf-8");%>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+background:#c166a1;
+    align:center;
+}
+</style>
+<%
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+String email = request.getParameter("email");
+
+%>
+
+<%
+Connection conn = null;
+String url = "jdbc:oracle:thin:@localhost:1521:xe";
+String user = "hr";
+String password="hr";
+PreparedStatement ps1 = null;
+ArrayList<String> array = new ArrayList<>();
+
+%>
+
+
+</head>
+<body>
+
+</body>
+</html>

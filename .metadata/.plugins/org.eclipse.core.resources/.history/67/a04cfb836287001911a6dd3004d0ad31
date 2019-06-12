@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+  <style>
+body
+{
+  background: #6762fc;
+}
+  </style>
+</head>
+<body>
+<pre>
+<h1>File Download!</h1>
+<form name="fileForm" id="fileForm" method="post" action="FileDownloadProc.jsp" enctype="multipart/form-data">
+    <input type="file" name="uploadFile" id="uploadFile">
+    <input type="submit" value="Download!">
+</form>
+
+
+
+</body>
+</html>

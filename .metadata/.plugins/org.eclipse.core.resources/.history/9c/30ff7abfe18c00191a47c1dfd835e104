@@ -1,0 +1,102 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.ResultSet" %>
+<%@page import="java.util.ArrayList" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("utf-8");%>
+<style>
+  body
+  {
+    background: #c166a1;
+    align:center;
+  }
+  </style>
+ 
+<%
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+String email = request.getParameter("email");
+
+
+%>
+
+<%
+Connection conn = null;
+String url = "jdbc:oracle:thin:@localhost:1521:xe";
+String user = "hr";
+String password = "hr";
+PreparedStatement ps1 = null;
+PreparedStatement ps2 = null;
+ArrayList<String> array = new ArrayList<>();
+
+  Class.forName("oracle.jdbc.driver.OracleDriver");
+  conn = DriverManager.getConnection(url,user,password);
+  String str = "select distinct department_name from departments natural join employees";
+  String str2 = "select e.employee_id,e.first_name,e.salary,"
+		  +" e.hire_date, d.department_name "
+		  +" from employees e, departments d "
+		  +" where e.department_id = d.department_id "
+		  +" and d.department_name = ?";
+  String str3 = "select distinct * from departments natural join employees";
+  ps1=conn.prepareStatement(str); // 총 부서명 중복없이 찾아오는것
+  ResultSet rss = ps1.executeQuery(); //부서명만 실행   select용
+  
+  
+  ps2 = conn.prepareStatement(str3);
+  
+  
+  
+  ResultSet rss2 = ps2.executeQuery(); //검색값 찾아오는용
+  
+  while(rss.next())
+	{
+		array.add(rss.getString("department_name"));
+	}
+ 
+   for(int i=0;i<array.size();i++)
+   {
+	   out.println(array.get(i));
+   }
+   
+   %>
+   <form action="sawonSearch2.jsp" method="get">
+   <table border=2 width="800px">
+   <tr>
+   <td  colspan=5> 검색할 부서를 선택하세요 
+   <select name="select" value="select" id="select">
+   <%
+   for(int i=0;i<array.size();i++)   
+   {%> 
+	   <option value="${i}">
+	   <%=(String)array.get(i)%>
+	   </option>
+	<%
+	}
+   
+   %>
+   </select>
+   <input type="submit" value="검색">
+   </td>
+   </tr>
+   <tr><td>사원아이디</td><td>이름</td><td>급여</td><td>입사일</td><td>부서명</td></tr>
+   </table>
+   </form>
+   <table border=2 width="800px">
+   <%
+   
+   while(rss2.next())
+   {
+	   %>
+	   <tr><td><%=rss2.getString("EMPLOYEE_ID") %></td><td><%=rss2.getString("FIRST_NAME")+" "+rss2.getString("LAST_NAME") %></td><td><%=rss2.getInt("SALARY") %></td><td><%=rss2.getDate("HIRE_DATE") %></td><td><%=rss.getString("DEPARTMENT_NAME") %></td></tr>
+	   <%
+   }
+   
+   %>
+   </table>
+
+<% 
+
+
+%>

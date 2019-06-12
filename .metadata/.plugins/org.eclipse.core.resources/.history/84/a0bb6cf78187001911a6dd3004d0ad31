@@ -1,0 +1,80 @@
+<%@page import="java.util.*" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="utf-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script>
+function check()
+{
+  var name = document.form.name.value;//document.getElementById("")를 써도 된다~
+  var year = document.form.year.value;
+  var len = year.length
+ // if(name.equals("")||year.length!=4)
+ // {
+ //    alert("다시 입력해주세요")
+ //    window.location.href="./inputAge.jsp"
+ // }
+ // else {
+ //   window.location.href="./hello.html"
+ // }
+
+ if(irum=='')
+ {
+   alert("이름을 입력해주세요")
+   document.form.name.focus() //해당글상자에 마우스 커서를 두라
+   return false //여기에 왔었나를 체크
+ }
+ if(len==0)
+ {
+   alert("숫자를 입력해 주세요")
+   document.form.year.focus()
+   return false
+ }
+ else if(year<0)
+ {
+   alert("0이외의 숫자를 입력해 주세요")
+   document.form.year.focus()
+   return false
+ }
+ else if(year<4 || year>4)
+ {
+   alert("년도는 4자리로 입력해주세요")
+   document.form.year.focus()
+   return false
+ }
+ else {
+   return true
+ }
+}
+
+function success()
+{
+  if(check()==true)
+  {
+    document.form.submit() //자바 서버로 가는 함수
+  }
+}
+
+</script>
+<style>
+body
+{
+  background: #a9b616;
+
+}
+
+</style>
+  </head>
+<body>
+  <form action="./outputAge.jsp" method="get" name="form">
+  <h4>
+  이름 : <input type="text" name="name" /><br />
+  생년 : <input type="number" name="year"/><br />
+<input type="submit" value="submit" onclick="javascript:success()" />
+<%-- 사실 보안에 약간 취약하다 --%>
+</h4>
+</form>
+  </body>
+</html>

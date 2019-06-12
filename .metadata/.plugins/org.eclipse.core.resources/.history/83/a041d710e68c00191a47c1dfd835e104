@@ -1,0 +1,99 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.ResultSet" %>
+<%@page import="java.util.ArrayList" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("utf-8");%>
+<style>
+  body
+  {
+    background: #c166a1;
+    align:center;
+  }
+  </style>
+ 
+<%
+String selected = (String)request.getParameter("select");
+int salary = Integer.parseInt(request.getParameter("salary"));
+%>
+
+<%
+Connection conn = null;
+String url = "jdbc:oracle:thin:@localhost:1521:xe";
+String user = "hr";
+String password = "hr";
+PreparedStatement ps1 = null;
+PreparedStatement ps2 = null;
+ArrayList<String> array = new ArrayList<>();
+//사번 이름 급여 부서명
+
+
+try
+{
+  Class.forName("oracle.jdbc.driver.OracleDriver");
+  conn = DriverManager.getConnection(url,user,password);
+  String str = "select * from departments natural join employees where department_name like ? and salary=?";
+  
+  ps1=conn.prepareStatement(str); 
+  ps1.setString(1,selected);
+  ps1.setInt(2,salary);
+  
+  ResultSet rss = ps1.executeQuery(); 
+
+   %>
+
+   <table border=2>
+   <tr>
+   <td  colspan=5 align="center"> 부서명
+   <select name="select" value="select" id="select">
+   <%
+   for(int i=0;i<array.size();i++)   
+   {%> 
+	   <option value="${i}">
+	   <%=(String)array.get(i)%>
+	   </option>
+	<%
+	}
+   
+   %>
+   </select>
+   </td>
+   </tr>
+   <tr><td align="center">급여가  <input type="text" name="salary">  이상인 직원을 검색</td></tr>
+ 	<tr><td align="center"><input type="submit" name="searchSalary" value="검색"></td></tr>
+	   
+<%
+   
+   
+
+}
+catch(Exception e)
+{
+  e.getStackTrace();
+}
+finally
+{
+  try
+  {
+    if(ps1!=null)
+    {
+      ps1.close();
+    }
+    if(conn!=null)
+    {
+      conn.close();
+    }
+  }
+  catch(Exception e2)
+  {
+    e2.getStackTrace();
+  }
+}
+
+%>
+   </table>
+  
+   </form>
+

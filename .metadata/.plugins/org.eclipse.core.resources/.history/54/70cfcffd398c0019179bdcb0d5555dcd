@@ -1,0 +1,47 @@
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.DriverManager"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body{
+text-align:center;
+}
+
+</style>
+</head>
+<body>
+<%
+Class.forName("oracle.jdbc.driver.OracleDriver");//드라이버 로딩
+Connection con1=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","hr","hr");//접속객체 명
+Statement stmt1=con1.createStatement();//stmt1객체: 문장관련객체, 	접속객체=문장객체
+ResultSet rs1;
+
+
+%>
+
+<table border=5>
+<tr><th>아이디</th><th>이름</th><th>전화</th><th>입사일</th></tr>
+<%
+String sqlstr1="select * from TelTable5 order by id";
+rs1=stmt1.executeQuery(sqlstr1);
+while(rs1.next()){
+%>
+<tr>
+<td><%=rs1.getInt("id") %></td>
+
+<td><%=rs1.getString("name") %></td>
+<td><%=rs1.getString("tel") %></td>
+<td><%=rs1.getDate("d") %></td>
+</tr>
+<%} %>
+
+</table>
+</body>
+</html>

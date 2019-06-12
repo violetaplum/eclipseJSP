@@ -1,0 +1,44 @@
+안녕하세요 여러분~~~
+
+
+create table TelTable5
+(
+id number(5),
+name varchar2(20),
+tel varchar2(20),
+d date
+);
+
+insert into TelTable5 values(1,'hong','010-7777-8888','20160201');
+
+insert into TelTable5 values(2,'park','010-3333-5555','20160207');
+
+insert into TelTable5 values(3,'choi','010-3333-5555','20160207');
+
+
+
+<option value="Administration">Administration</option>
+			<option value="Marketing">Marketing</option>
+			<option value="Purchasing">Purchasing</option>
+			<option value="Human Resources">Human Resources</option>
+			<option value="Shipping">Shipping</option>
+			<option value="IT">IT</option>
+			<option value="Public Relations">Public Relations</option>
+			<option value="Sales">Sales</option>
+			<option value="Executive">Executive</option>
+			<option value="Finance">Finance</option>
+			<option value="Accounting">Accounting</option>
+
+
+
+
+사번 이름 급여 부서명
+
+
+
+create table info2(
+name varchar2(30),
+birth date,
+tel varchar2(30),
+email varchar2(30)
+);

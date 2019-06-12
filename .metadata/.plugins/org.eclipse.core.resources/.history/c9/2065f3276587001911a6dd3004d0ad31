@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
+
+<%@page import="com.oreilly.servlet.MultipartRequest" %>
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy" %>
+<%@page import="java.io.*" %>
+<%@page import="java.util.Date" %>
+<%@page import="java.text.SimpleDateFormat" %>
+<style>
+body
+{
+background: #6762fc;
+}
+</style>
+<%
+if(request.getAttribute("file1")!=null) {
+    request.setCharacterEncoding("EUC-KR");
+    String fileName = new String(request.getParameter("fileUrl").getBytes("ISO-8859-1"), "KSC5601");
+    String fileUrl = "WebContent/StyleUpload/" + fileName;
+    if(fileUrl == null) return;
+    boolean fileexists = true;
+    try {
+     ServletContext cxt = getServletConfig().getServletContext();
+     String file = cxt.getRealPath(fileUrl);
+     File fileEx = new File(file);
+     if(fileEx.exists()) {
+        response.setContentType("application/octet-stream");
+        response.setHeader("Content-Disposition","attachment; filename="+ java.net.URLEncoder.encode(fileName,"UTF-8")); 
+        byte [] buffer = new byte[1024*15];
+        ServletOutputStream out = response.getOutputStream();
+        BufferedInputStream in = new BufferedInputStream(new FileInputStream(file));
+        BufferedOutputStream bout = new BufferedOutputStream(out);
+        int n = 0;
+        while((n=in.read(buffer, 0, 1024*15)) != -1) {
+              bout.write(buffer, 0, n);
+        bout.flush();
+        }
+        bout.close();
+        in.close();
+        } else {
+        fileexists = false;
+        }
+    } catch(Exception e) {
+       e.printStackTrace();
+       }
+       if(!fileexists) {
+        vo.put("message", MessageUtil.getMessage("MSG00009"));
+       }
+
+   }
+
+
+%>
+<script>
+    alert("제출 완료");
+</script>

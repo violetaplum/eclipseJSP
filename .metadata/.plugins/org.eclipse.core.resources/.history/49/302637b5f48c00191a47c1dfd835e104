@@ -1,0 +1,60 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.ResultSet" %>
+<%@page import="java.util.ArrayList"%>
+<%@page import="telinfoDAO.TelInfoDAO"%>
+<%@page import="telinfoVO.TelInfoVO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%request.setCharacterEncoding("utf-8");%>
+
+<%
+String id = (String)request.getParameter("id");
+String pw = (String)request.getParameter("pw");
+String id = (String)request.getParameter("email");
+
+Connection conn = null;
+String url = "jdbc:oracle:thin:@localhost:1521:xe";
+String user = "hr";
+String password = "hr";
+PreparedStatement ps1 = null;
+
+try
+{
+  Class.forName("oracle.jdbc.driver.OracleDriver");
+  conn = DriverManager.getConnection(url,user,password);
+  ps1=conn.prepareStatement("insert into info values(?,?,?)");
+  ps1.setString(1,id);
+  ps1.setString(2,pw);
+  ps1.setString(3,email);
+  ps1.executeUpdate();
+
+  ps1.executeUpdate();
+
+
+}
+catch(Exception e)
+{
+  e.getStackTrace();
+}
+finally
+{
+  try
+  {
+    if(ps1!=null)
+    {
+      ps1.close();
+    }
+    if(conn!=null)
+    {
+      conn.close();
+    }
+  }
+  catch(Exception e2)
+  {
+    e2.getStackTrace();
+  }
+}
+
+%>

@@ -1,0 +1,9 @@
+package sawonpkg;
+
+public class Sawon {
+//
+	private String name;
+	private String age;
+	//인자없는 생성자, getter setter 만들기
+
+}
