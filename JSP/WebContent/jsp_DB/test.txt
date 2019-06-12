@@ -42,3 +42,7 @@ birth date,
 tel varchar2(30),
 email varchar2(30)
 );
+
+
+_jsp.java의 경로
+C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\work\Catalina\localhost\JSP\org\apache\jsp
