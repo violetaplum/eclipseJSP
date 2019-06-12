@@ -30,10 +30,8 @@ public class Hello1 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 								//응답을 보내는 객체			//응답을 받는 객체
 						//보내는 사람이 POST로 보내도 이 GET에 써주면 된다
-
-						response.setContentType("text/html;charset=utf-8"); //타입을 정해준다 //이것때문에 하단의 out.print()에서 html tag먹힘
-		PrintWriter out = response.getWriter(); //out이라는 것을 전송객체로 쓰겠다는 의미
-		out.print("<h2>Hello!!!!!!</h2>");   //java에 html을 껴서 넣어준다 //body까지 다 넣어줄수도 있다!!!
+		PrintWriterriter out = response.getWriter();
+		out.print("<h2>방가방가!!</h2>");
 		System.out.println("What...?");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
