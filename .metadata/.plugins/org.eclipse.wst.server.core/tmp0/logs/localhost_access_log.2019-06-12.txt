@@ -115,3 +115,4 @@
 0:0:0:0:0:0:0:1 - - [12/Jun/2019:19:32:23 +0900] "GET /JSP/jsp_DB/dao2.jsp?name=heesoo&tel=010-1111-1111&email=violetaplum%40gmail.com&birth=2019-06-02&radio1=%EC%8B%A0%EB%AC%B8%EA%B8%B0%EC%82%AC&radio2=%EA%B3%A8%ED%94%84&select=email HTTP/1.1" 200 353
 0:0:0:0:0:0:0:1 - - [12/Jun/2019:19:33:27 +0900] "GET /JSP/jsp_DB/dao.jsp HTTP/1.1" 200 1653
 0:0:0:0:0:0:0:1 - - [12/Jun/2019:19:33:48 +0900] "GET /JSP/jsp_DB/dao2.jsp?name=heso&tel=010&email=zxcv&birth=2019-06-07&radio1=%EA%B4%91%EA%B3%A0&radio2=%ED%85%8C%EB%8B%88%EC%8A%A4&select=email&check=on HTTP/1.1" 200 326
+0:0:0:0:0:0:0:1 - - [12/Jun/2019:21:31:55 +0900] "GET /JSP/Hello1 HTTP/1.1" 404 1088

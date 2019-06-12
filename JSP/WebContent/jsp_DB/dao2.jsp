@@ -28,6 +28,8 @@ PreparedStatement ps1 = null;
 
 String birthString = (String)request.getParameter("birth");
 Date date = new java.sql.Date(new SimpleDateFormat("yyyy-MM-dd").parse(birthString).getTime());
+//java.util.Date 과 java.sql.Date   교환하는것 중요!!!
+
 String name = (String)request.getParameter("name");
 String tel = (String)request.getParameter("tel");
 String email = (String)request.getParameter("email");

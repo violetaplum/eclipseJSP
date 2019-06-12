@@ -46,3 +46,5 @@ email varchar2(30)
 
 _jsp.java의 경로
 C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\work\Catalina\localhost\JSP\org\apache\jsp
+
+본인이 만든 jsp가 java로 바뀌어있음
