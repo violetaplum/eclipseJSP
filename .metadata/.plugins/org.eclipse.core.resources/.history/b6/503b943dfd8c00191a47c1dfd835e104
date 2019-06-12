@@ -37,16 +37,7 @@ String path = (String)request.getParameter("radio1");
 String sport = (String)request.getParameter("radio2");
 String approch = (String)request.getParameter("select");
 String privacy = (String)request.getParameter("check");
-String privacy2;
 
-if(privacy.equals("on"))
-{
-	privacy2 = "동의함";
-}
-else
-{
-	privacy2="비동의함";
-}
 
 
 Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -59,6 +50,6 @@ ps1.setString(4,email);
 ps1.executeUpdate();
 
   out.print("<h3>이름 : "+name+"<br>전화번호 : "+tel+"<br>이메일 : "+email+"<br>생일 : "+String.valueOf(date)+"</h3>");
-  out.print("<h3>알게된 경로 : "+path+"<br>좋아하는 스포츠 : "+sport+"<br />연락방법 : "+approch+"<br>개인정보활용 : "+privacy2+"</h3>");
+  out.print("<h3>알게된 경로 : "+path+"<br>좋아하는 스포츠 : "+sport+"<br />연락방법 : "+approch+"<br>개인정보활용 : "+privacy+"</h3>")
 
 %>
