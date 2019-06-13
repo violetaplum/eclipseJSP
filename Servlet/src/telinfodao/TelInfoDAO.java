@@ -6,6 +6,7 @@ import java.sql.*;
 import java.util.*;
 import java.util.Date;
 
+
 public class TelInfoDAO
 {
         private Connection con; //java.sql.Connection
@@ -72,92 +73,28 @@ public class TelInfoDAO
                 tiarray.add(tv); //VO 객체 를 ArrayList<TelInfoVO> 에 넣기
 
             }
-            return tiarray;
-        }
+            return tiarray; //전체 내용이 들어있는 해당 컬렉션을 return
+        }  //DAO를 전달할때 객체를 new하여 값을 가져오는것으로 인자전달이 이루어질것!!!
+        	//new를 하면 메모리에 올라가지게 된다!!
 
-        
-        
-        
-        
-        
-        
-        
-        
-    public boolean update_nametel(String name,String tel)
-    {
-        String sql = "update TelTable5 set tel=? where name=?";
-        try{
-            pstmt = con.prepareStatement(sql);
-            pstmt.setString(1,tel);
-            pstmt.setString(2,name);
-            pstmt.executeUpdate();
-        }
-        catch(SQLException e)
-        {
-            System.out.println("update Exception");
-            return false;
-        }
-        return true;
+    public boolean update_nametel(String tel2,String name2)
+    {//수정 method //이름 조건에 대해 전화번호만 수정하는!!
+      //새로운 전화번호 및 수정대상 사원이름은 jsp로부터 온다
+      //그리고 DB table로 저장된다
+      String sql = "update TelTable5 set tel=? where name=?";
+      try
+      {
+        pstmt = con.prepareStatement(sql);
+        pstmt.setString(1,tel2);
+        pstmt.setString(2,name2);
+        pstmt.executeUpdate();
+      }
+      catch(SQLException e)
+      {
+        e.printStackTrace();
+        return false;
+      }
+      return true;
     }
-    public boolean delete_nametel(int id)
-    {
-        String sql = "delete from TelTable5 where id=?";
-        try{
-            pstmt = con.prepareStatement(sql);
-            pstmt.setInt(1,id);
-            pstmt.executeUpdate();
-        }
-        catch(Exception e)
-        {
-            System.out.println("delete Exception");
-            return false;
-        }
-        return true;
-    }
-    public boolean insert_person(int id,String name, String tel, String d)
-    {
-        String sql = "insert into TelTable5 values (?,?,?,?)";
-        try{
-            pstmt = con.prepareStatement(sql);
-            pstmt.setInt(1,id);
-            pstmt.setString(2,name);
-            pstmt.setString(3,tel);
-            //pstmt.setDate(4,java.sql.Date.valueOf(d));
-            //main에서 전달되는 인자의 형식은 "20161206"임
 
-            int year = Integer.parseInt(d.substring(0,4))-1900;
-            int month = Integer.parseInt(d.substring(4,6))-1;
-            int day = Integer.parseInt(d.substring(6,8));
-            Date dd = new Date(year,month,day);
-
-            pstmt.setDate(4,java.sql.Date.valueOf(dd.toString()));
-            //java.util.Date는 Java의 Date 데이터 유형임
-            //java.sql.Date는 SQL날짜에 대한 JDBC Wrapper Class이다!!!!!!
-
-
-
-            //PreparedStatement에는 sql.Date -> setDate(), sql.Timestamp -> setTime() 에 대한 설정자를 가진다.
-            //java.sql.Date 는 sql date에 해당된다.
-            //분,초,밀리초는 무시됨. 또한 시간대와 관련이 없다.
-            //java.sql.Time은 sql time에 해당하며 시간, 분, 초 및 밀리초 정보만 포함함
-            //java.sql.Timestamp는 사용자 정의할 수 있는 정밀도. 나노초에대한 정확한 날짜인 SQL TIMESTAMP에 해당
-            //util.Date는 밀리초만 지원함
-
-            //sql.Date는 시간대에 따라 다르며, sql.Time에는 현재 년,월,일 등이 포함된다.
-
-            //PreparedStatement에는 sql.Date -> setDate(), sql.Timestamp -> setTime() 에 대한 설정자를 가진다.
-
-
-            pstmt.executeUpdate();
-
-
-
-        }
-        catch(Exception e)
-        {
-            System.out.println("insert Exception");
-            return false;
-        }
-        return true;
-    }
 }
