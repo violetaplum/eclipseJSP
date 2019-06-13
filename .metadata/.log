@@ -717,3 +717,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-13 16:14:01.327
 !MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-13 17:01:37.257
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

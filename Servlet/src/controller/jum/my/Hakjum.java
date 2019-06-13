@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/Hakjum")  //annotation!! 예전에는 복잡하고 어려웠음
 public class Hakjum extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -29,11 +29,11 @@ public class Hakjum extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		doPost(request,response); //html에서 Post방식으로 보냈기 때문에 이를 명시해줘야함 //Get방식으로 오면 post로 보내라는 의미
-		
-		
-		
-		
-		
+
+
+
+
+
 	}
 
 	/**
@@ -42,17 +42,17 @@ public class Hakjum extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//doGet(request, response);
-		
+
 		request.setCharacterEncoding("utf-8");
 		//response.setCharacterEncoding("text/html;charset=utf-8");
-		
+
 		response.setContentType("text/html;charset=utf-8");
 		String name= request.getParameter("name");
 		String jum1 = request.getParameter("jum");
 		int jum = Integer.parseInt(jum1);
-		
+
 		String kaja = null;
-		
+
 		if(jum>=90)
 		{
 			kaja="A.jsp"; //jsp로 보내서 view역할을 준다
@@ -74,12 +74,13 @@ public class Hakjum extends HttpServlet {
 			kaja="F.jsp";
 		}
 		////////////////////////////////////////////////////////////////////////////////////////////////////////
-		
+
 		request.getRequestDispatcher("./jspview/"+kaja).forward(request, response); //값을 jsp로 가져가주는 문장!!!!
 		//이경우에는 kaja String을 가져가게 함
-		
-		
-		
+		//상위의 ./jspview/ 의 위치는 WebContent 하위의 jspview폴더위치
+
+
+
 	}
 
 }
