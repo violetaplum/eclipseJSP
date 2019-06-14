@@ -15,16 +15,16 @@ body
 <body>
   <pre>
 
-<h2>선택된 상품 정보는 다음과 같습니다</h2>
+<h2>The Selected Products!</h2>
 <hr />
-선택된 N1의 수 : ${sessionScope.counter.N1} //session중에서 counter세션의 N1의 정보를 출력
+Selected N1s : ${sessionScope.counter.getN1()} <!-- //session중에서 counter세션의 N1의 정보를 출력 -->
 
-선택된 N2의 수 : ${sessionScope.counter.N2}
+Selected N2s : ${sessionScope.counter.getN2()}
 
-선택된 N3의 수 : ${sessionScope.counter.N3}
+Selected N3s : ${sessionScope.counter.getN3()}
 <hr />
 
-<a href="product.html">상품 선택화면</a>
+<a href="product.html">Return To First Page</a>
 </pre>
 </body>
 </html>

@@ -14,7 +14,7 @@ public class TelInfoDAO
         ResultSet rs = null;    //전역
     //PreaparedStatement ps1 = null; 로 먼저 선언해놓고
     //밑에서 ps1 = new con.prepareStatement(String)
-
+ 
     //Connection.prepareStatement(String);
     //Connection.createStatement();
         //----------------------------------------------------------
