@@ -45,7 +45,7 @@ ArrayList<TelInfoVO> tiArray = new TelInfoDAO().getAllInfo();
     <td><%=tiArray.get(i).getId() %></td><td><a href=""><%=tiArray.get(i).getName() %></a></td><td><%=tiArray.get(i).getTel() %></td><td><%=tiArray.get(i).getDate() %></td>
   </tr>
   <%
-} //<jsp?name=value~~태그와a태그를 이용하여 update완성
+} //jsp?name=value~~와 a태그를 이용하여 update완성
   %>
 
 </table>
