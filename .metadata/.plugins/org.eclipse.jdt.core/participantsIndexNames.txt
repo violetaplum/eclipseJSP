@@ -11,5 +11,7 @@ C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\.metadata\.plugins\org.eclipse.jst.j
 \JSP\src
 C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\483626274.index
 \JSP\src
+C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3182749340.index
+\Test\src
 C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1527601000.index
 \MyJSP\src
