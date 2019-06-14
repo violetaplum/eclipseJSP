@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<script>
 
-
-</script>
 <style>
 body
 {
@@ -12,11 +9,15 @@ body
 }
 </style>
   <body>
-  <h1>구매하고자 하는 상품을 선택하세요</h1>
+  <h2>구매하고자 하는 상품을 선택하세요</h2>
 <hr />
 <a href="Product?pid=p001">
 <img src="./image/n1.jpeg" alt="n1" width="30%" />
 <!-- alt : 그림이 없을때 띄워주는것 -->
+<!-- a tag에 image가 들어가있으므로 그림을 누르게 돼있다
+Product : servlet이다!! servlet은 뒤에 확장자가 붙지 않는다. 찾아갈때 servlet을 찾아간다 -->
+<!-- pid : process id 나 product id라고 생각하면 됨.. 이 값이 p001로 간다는 의미 -->
+<!-- servlet?name=value형식을 따른다는것 -->
 </a>
 <a href="Product?pid=p002">
 <img src="./image/n2.jpeg" alt="n2" width="30%" />
