@@ -1,7 +1,5 @@
 INDEX VERSION 1.4+C:\Users\KGITBANK\Desktop\¿ÀÈÄ¹Ý\eclipseJSP\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
 4095308119.index
-2926312857.index
-2926312857.index
 4005953615.index
 2877354453.index
 661600371.index

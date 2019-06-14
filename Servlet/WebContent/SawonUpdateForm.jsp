@@ -9,25 +9,28 @@
 <head>
 <meta charset="utf-8">
 <title>Insert title here</title>
-    <style>
-*
-{
-  background: #c166a1;
-}
-    </style>
-</head>
-<body>
-<h2>사원 전체 명단</h2>
-<!-- DAO를 전달할때 객체를 new하여 값을 가져오는것으로 인자전달이 이루어질것!!! -->
 <%
 request.setCharacterEncoding("utf-8");
 response.setCharacterEncoding("utf-8");
 
 //TelInfoDAO tidao = new TelInfoDAO(); //패키지 이름부터 class까지 import 경로 잡아줘야함 //new 하는순간 메모리에 올라간다!!!><><><><
 ArrayList<TelInfoVO> tiArray = new TelInfoDAO().getAllInfo(); //일단 전체 다나와
-
+String name = request.getParameter("name");
+session.setAttribute("name", name);
+TelInfoVO tv = new TelInfoDAO().search_nametel(name);
 %>
+    <style>
+*
+{
+  background: #c166a1;
+}
+    </style>
 
+</head>
+<body>
+<h2>사원 전체 명단</h2>
+<!-- DAO를 전달할때 객체를 new하여 값을 가져오는것으로 인자전달이 이루어질것!!! -->
+<form action="sawonUpdateFinal.jsp" method="get">
 <table border="2px">
   <tr>
     <td colspan=4 align="center">
@@ -37,20 +40,26 @@ ArrayList<TelInfoVO> tiArray = new TelInfoDAO().getAllInfo(); //일단 전체 �
   <tr>
     <td>사번</td><td>이름</td><td>전화번호</td><td>입사일</td>
   </tr>
-  <%
-  for(int i=0;i<tiArray.size();i++)
-  {
-  %>
-  <tr>
-    <td><%=tiArray.get(i).getId() %></td><td><a href="SawonUpdateForm.jsp?name=<%=tiArray.get(i).getName() %>"><%=tiArray.get(i).getName() %></a></td><td><%=tiArray.get(i).getTel() %></td><td><%=tiArray.get(i).getDate() %></td>
-<%-- <a href=".jsp?name=choi">choi</a> : 문법에 주의한다 --%>
-<%-- 밑줄을 누르면 .jsp로 choi를 갖고간다 --%>
-  </tr>
-  <%
-  }
-  %>
+
+      <tr>
+        <td><%=tv.getId() %></td><td><%=tv.getName()%></td><td><input type="text" name="tel"></td><td><%=tv.getDate() %></td>
+      </tr>
+ <tr>
+   <td colspan=4 align="center">
+     <input type="submit" value="수정" />
+   </td>
+ </tr>
 
 </table>
+<%--     <script>
+    function kaja()
+    {
+    	<%
+    	new TelInfoDAO().update_nametel(tel,name);
+    	out.print("kaja");
+    	%>
+    }
+    </script> --%>
 <table border=0>
   <tr>
     <td>
@@ -64,5 +73,6 @@ ArrayList<TelInfoVO> tiArray = new TelInfoDAO().getAllInfo(); //일단 전체 �
     </td>
   </tr>
 </table>
+</form>
 </body>
 </html>

@@ -1,1424 +1,752 @@
-!SESSION 2019-05-31 20:47:42.621 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
+!SESSION 2019-06-14 21:05:21.749 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
 java.version=1.8.0_201
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.jface.text 2 0 2019-05-31 20:47:52.694
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+This is a continuation of log file C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\.metadata\.bak_0.log
+Created Time: 2019-06-14 21:09:57.301
 
-!ENTRY org.eclipse.egit.ui 2 0 2019-05-31 20:47:56.719
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-05-31 20:48:23.553
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-05-31 20:48:50.855
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-05-31 20:48:51.899
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.wst.server.discovery 1 0 2019-05-31 20:54:26.313
-!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-05-31 20:55:16.577
-!MESSAGE Port 8080 required by Tomcat v8.5 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
-
-!ENTRY org.eclipse.wst.server.discovery 1 0 2019-05-31 20:56:02.387
-!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-05-31 20:56:16.493
-!MESSAGE Port 8080 required by Tomcat v8.5 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
-
-!ENTRY org.eclipse.ltk.core.refactoring 4 10009 2019-05-31 20:59:51.871
-!MESSAGE Participant 'JavaEEServerRefParticipant' removed due to the following exception
-!STACK 1
-org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\Tomcat v8.5 Server at localhost-config is missing. Check the server for errors.
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:99)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.modifyModules(TomcatServer.java:543)
-	at org.eclipse.wst.server.core.internal.ServerWorkingCopy.modifyModules(ServerWorkingCopy.java:553)
-	at org.eclipse.wst.server.core.ServerUtil.modifyModules(ServerUtil.java:398)
-	at org.eclipse.jst.javaee.ltk.core.participant.JavaEEServerRefRefactorParticipant.updateServerRefs(JavaEEServerRefRefactorParticipant.java:53)
-	at org.eclipse.jst.javaee.ltk.core.participant.JavaEEServerRefRefactorParticipant.access$1(JavaEEServerRefRefactorParticipant.java:41)
-	at org.eclipse.jst.javaee.ltk.core.participant.JavaEEServerRefRefactorParticipant$RemoveProjectFromServersChange.perform(JavaEEServerRefRefactorParticipant.java:180)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2019-05-31 20:59:51.872
-!MESSAGE The Tomcat server configuration at \Servers\Tomcat v8.5 Server at localhost-config is missing. Check the server for errors.
-
-!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2019-05-31 20:59:51.983
-!MESSAGE Internal Error
-!STACK 1
-org.eclipse.core.runtime.CoreException: The Tomcat server configuration at \Servers\Tomcat v8.5 Server at localhost-config is missing. Check the server for errors.
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.getTomcatConfiguration(TomcatServer.java:99)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServer.modifyModules(TomcatServer.java:543)
-	at org.eclipse.wst.server.core.internal.ServerWorkingCopy.modifyModules(ServerWorkingCopy.java:553)
-	at org.eclipse.wst.server.core.ServerUtil.modifyModules(ServerUtil.java:398)
-	at org.eclipse.jst.javaee.ltk.core.participant.JavaEEServerRefRefactorParticipant.updateServerRefs(JavaEEServerRefRefactorParticipant.java:53)
-	at org.eclipse.jst.javaee.ltk.core.participant.JavaEEServerRefRefactorParticipant.access$1(JavaEEServerRefRefactorParticipant.java:41)
-	at org.eclipse.jst.javaee.ltk.core.participant.JavaEEServerRefRefactorParticipant$RemoveProjectFromServersChange.perform(JavaEEServerRefRefactorParticipant.java:180)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:283)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2019-05-31 20:59:51.983
-!MESSAGE The Tomcat server configuration at \Servers\Tomcat v8.5 Server at localhost-config is missing. Check the server for errors.
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-05-31 20:59:51.988
-!MESSAGE The Tomcat server configuration at \Servers\Tomcat v8.5 Server at localhost-config is missing. Check the server for errors.
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-05-31 21:03:00.006
-!MESSAGE Port 8080 required by Tomcat v8.5 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
-!SESSION 2019-05-31 21:17:47.184 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-05-31 21:17:57.233
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-05-31 21:17:59.401
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-05-31 21:18:56.451
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-05-31 21:29:10.575
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-!SESSION 2019-06-03 15:45:46.093 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-03 15:46:21.366
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-03 15:46:33.148
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-03 15:47:08.635
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-03 16:24:07.259
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-03 16:24:54.583
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-06-03 19:49:42.580
-!MESSAGE Removing obsolete files from server...
-!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2019-06-03 19:49:42.580
-!MESSAGE Could not clean server of obsolete files: FWK005 parse may not be called while parsing.
-!STACK 0
-org.xml.sax.SAXException: FWK005 parse may not be called while parsing.
-	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
-	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
-	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.loadDocument(Factory.java:88)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.getCatalinaServerInstance(TomcatVersionHelper.java:216)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.cleanupCatalinaServer(TomcatVersionHelper.java:303)
-	at org.eclipse.jst.server.tomcat.core.internal.Tomcat85Configuration.cleanupServer(Tomcat85Configuration.java:701)
-	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:234)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
-	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
-	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3182)
-	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:355)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-!SESSION 2019-06-04 16:09:07.080 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-04 16:10:28.760
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-04 16:10:34.905
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-04 16:33:27.459
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-!SESSION 2019-06-04 21:33:42.231 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-04 21:33:51.818
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-04 21:33:53.859
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2019-06-04 21:37:16.601 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-04 21:37:25.979
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-04 21:37:28.151
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2019-06-05 15:34:09.878 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-05 15:34:50.959
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-05 15:35:00.917
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-05 16:25:47.119
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-05 16:58:38.707
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-05 16:58:38.733
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-05 19:03:49.667
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-!SESSION 2019-06-07 15:41:59.495 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-07 15:58:31.711
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-07 15:58:40.654
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-07 16:33:11.609
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-07 19:22:38.652
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.ui 4 0 2019-06-07 19:44:24.549
+!ENTRY org.eclipse.ui 4 0 2019-06-14 21:09:57.305
 !MESSAGE Unhandled event loop exception
 !STACK 0
-org.eclipse.swt.SWTException: Graphic is disposed
-	at org.eclipse.swt.SWT.error(SWT.java:4595)
-	at org.eclipse.swt.SWT.error(SWT.java:4510)
-	at org.eclipse.swt.SWT.error(SWT.java:4481)
-	at org.eclipse.swt.graphics.Image.getImageData(Image.java:1371)
-	at org.eclipse.swt.internal.ImageList.set(ImageList.java:365)
-	at org.eclipse.swt.internal.ImageList.add(ImageList.java:52)
-	at org.eclipse.swt.widgets.Table.imageIndex(Table.java:2900)
-	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6710)
-	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5809)
-	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1989)
-	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5367)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4824)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
-	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
-	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:588)
-	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:454)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4867)
-	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5836)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4778)
-	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
-	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
-	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3985)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3541)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+java.lang.NoClassDefFoundError: org/eclipse/datatools/sqltools/result/ResultsViewAPI
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.<init>(ResultSupportRunnable.java:76)
+	at org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable.<init>(SimpleSQLResultRunnable.java:86)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:106)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:116)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.BaseExecuteAction.run(BaseExecuteAction.java:63)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.ExecuteSelectionSQLAction.run(ExecuteSelectionSQLAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:93)
+	at sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:305)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:579)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:648)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:438)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:381)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:93)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1190)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1051)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Control.traverse(Control.java:4274)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4124)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1268)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4142)
+	at org.eclipse.swt.widgets.Display.translateMnemonic(Display.java:4656)
+	at org.eclipse.swt.widgets.Display.filterMessage(Display.java:1208)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3530)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-!SESSION 2019-06-10 15:40:06.757 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.jface.text 2 0 2019-06-10 15:40:46.322
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-10 15:40:55.278
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.wst.xml.core 4 4 2019-06-10 16:14:43.294
-!MESSAGE IStructuredDocumentRegion management failed.
+!ENTRY org.eclipse.ui 4 0 2019-06-14 21:09:57.317
+!MESSAGE Unhandled event loop exception
 !STACK 0
-org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
-	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2224)
-	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2283)
-	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2341)
-	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:742)
-	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:602)
-	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1200)
-	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1981)
-	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2425)
-	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2421)
-	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$3(JobSafeStructuredDocument.java:1)
-	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$4.run(JobSafeStructuredDocument.java:165)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:150)
-	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:173)
-	at org.eclipse.wst.sse.core.internal.undo.StructuredTextCommandImpl.undo(StructuredTextCommandImpl.java:129)
-	at org.eclipse.emf.common.command.CompoundCommand.undo(CompoundCommand.java:327)
-	at org.eclipse.emf.common.command.BasicCommandStack.undo(BasicCommandStack.java:143)
-	at org.eclipse.wst.sse.core.internal.undo.StructuredTextUndoManager.undo(StructuredTextUndoManager.java:633)
-	at org.eclipse.wst.sse.ui.StructuredTextViewerUndoManager.undo(StructuredTextViewerUndoManager.java:167)
-	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:3810)
-	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:1064)
-	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1461)
-	at org.eclipse.wst.sse.ui.internal.StructuredTextViewer.doOperation(StructuredTextViewer.java:646)
-	at org.eclipse.ui.texteditor.TextOperationAction.lambda$0(TextOperationAction.java:130)
-	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
-	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:130)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
-	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+java.lang.NoClassDefFoundError: org/eclipse/datatools/sqltools/result/ResultsViewAPI
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.<init>(ResultSupportRunnable.java:76)
+	at org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable.<init>(SimpleSQLResultRunnable.java:86)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:106)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:116)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.BaseExecuteAction.run(BaseExecuteAction.java:63)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.ExecuteSelectionSQLAction.run(ExecuteSelectionSQLAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:93)
+	at sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:305)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:579)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:648)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:438)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:381)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:93)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1190)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1051)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Control.traverse(Control.java:4274)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4124)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1268)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4142)
+	at org.eclipse.swt.widgets.Display.translateMnemonic(Display.java:4656)
+	at org.eclipse.swt.widgets.Display.filterMessage(Display.java:1208)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3530)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
-	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
-	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:164)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
-	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
-	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
-	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:386)
-	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1193)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1054)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1106)
-	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1102)
-	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1489)
-	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4888)
-	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:353)
-	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4768)
-	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
-	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
-	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3545)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-10 16:27:14.087
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-10 16:56:00.307
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-10 18:07:13.293
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-10 18:07:13.311
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-10 19:27:42.665
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-!SESSION 2019-06-11 15:40:12.182 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 15:44:22.889
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-11 15:44:32.665
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2019-06-11 16:02:02.703 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 16:02:12.545
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-11 16:02:15.777
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2019-06-11 16:23:14.789 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 16:23:24.552
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-11 16:23:26.715
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.core 4 0 2019-06-11 16:41:24.919
-!MESSAGE Provisioning exception
-!STACK 1
-org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/usssdk/updates/release.
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
-	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
-!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-11 16:41:24.920
-!MESSAGE No repository found at http://download.eclipse.org/usssdk/updates/release.
-
-!ENTRY org.eclipse.equinox.p2.core 4 0 2019-06-11 16:41:51.457
-!MESSAGE Provisioning exception
-!STACK 1
-org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/usssdk/updates/nightly.
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
-	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
-!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-11 16:41:51.457
-!MESSAGE No repository found at http://download.eclipse.org/usssdk/updates/nightly.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-11 16:41:57.247
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 20:16:05.970
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 20:18:11.969
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-!SESSION 2019-06-11 20:37:30.334 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 20:37:41.129
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-11 20:37:43.027
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 20:59:51.062
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-11 20:59:51.358
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-11 21:36:26.571
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-!SESSION 2019-06-12 15:32:09.100 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-12 15:33:05.761
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-12 15:33:17.975
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.core 4 0 2019-06-12 15:39:20.507
-!MESSAGE Provisioning exception
-!STACK 1
-org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/usssdk/drops/nightly/N20190612-034144.
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
-	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
-	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
-	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
-	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
-	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
-	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
-!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-12 15:39:20.508
-!MESSAGE No repository found at http://download.eclipse.org/usssdk/drops/nightly/N20190612-034144.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-12 15:39:27.890
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-!SESSION 2019-06-12 15:39:51.671 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-12 15:40:01.522
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-12 15:40:03.857
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-12 15:42:39.326
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-12 15:43:40.208
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-12 16:20:20.825
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-12 21:42:04.108
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-!SESSION 2019-06-13 15:48:10.870 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-13 15:48:49.639
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-13 15:48:58.602
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-13 15:57:27.306
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-13 16:09:09.067
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-13 16:14:01.327
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-13 17:01:37.257
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-13 20:21:28.762
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-13 21:03:05.289
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-!SESSION 2019-06-14 15:34:45.191 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-14 15:39:10.967
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-14 15:39:21.702
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-14 16:10:12.149
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
-
-!ENTRY org.eclipse.core.filesystem 4 280 2019-06-14 16:26:02.068
-!MESSAGE Cannot create file, access denied: C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\Test\src\controller.
+!ENTRY org.eclipse.ui 4 0 2019-06-14 21:09:57.325
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.nio.file.AccessDeniedException: C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\Test\src\controller
-	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
-	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
-	at java.nio.file.Files.createDirectory(Unknown Source)
-	at java.nio.file.Files.createAndCheckIsDirectory(Unknown Source)
-	at java.nio.file.Files.createDirectories(Unknown Source)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:310)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1200)
-	at org.eclipse.core.internal.resources.Folder.internalCreate(Folder.java:175)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:108)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:292)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:93)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.createJavaPackage(NewJavaEEArtifactClassOperation.java:134)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:96)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+java.lang.NoClassDefFoundError: org/eclipse/datatools/sqltools/result/ResultsViewAPI
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.<init>(ResultSupportRunnable.java:76)
+	at org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable.<init>(SimpleSQLResultRunnable.java:86)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:106)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:116)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.BaseExecuteAction.run(BaseExecuteAction.java:63)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.ExecuteSelectionSQLAction.run(ExecuteSelectionSQLAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:93)
+	at sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:305)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:579)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:648)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:438)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:381)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:93)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1190)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1051)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Control.traverse(Control.java:4274)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4124)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4142)
+	at org.eclipse.swt.widgets.Display.translateMnemonic(Display.java:4656)
+	at org.eclipse.swt.widgets.Display.filterMessage(Display.java:1208)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3530)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.jst.j2ee 4 0 2019-06-14 16:26:02.082
-!MESSAGE Resource '/Test/src/controller' does not exist.
-!STACK 1
-Java Model Exception: Core Exception [code 368] Resource '/Test/src/controller' does not exist.
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:282)
-	at org.eclipse.jdt.internal.core.CreateCompilationUnitOperation.executeOperation(CreateCompilationUnitOperation.java:122)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
-	at org.eclipse.jst.j2ee.internal.web.operations.NewWebClassOperation.generateUsingTemplates(NewWebClassOperation.java:139)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:99)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-Caused by: java.lang.Exception: Resource '/Test/src/controller' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.File.create(File.java:113)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:276)
-	... 72 more
-Caused by: org.eclipse.core.internal.resources.ResourceException(/Test/src/controller)[368]: java.lang.Exception: Resource '/Test/src/controller' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.File.create(File.java:113)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:276)
-	at org.eclipse.jdt.internal.core.CreateCompilationUnitOperation.executeOperation(CreateCompilationUnitOperation.java:122)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
-	at org.eclipse.jst.j2ee.internal.web.operations.NewWebClassOperation.generateUsingTemplates(NewWebClassOperation.java:139)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:99)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-06-14 16:26:02.083
-!MESSAGE Resource '/Test/src/controller' does not exist.
+!ENTRY org.eclipse.ui 4 0 2019-06-14 21:09:57.351
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.lang.Exception: Resource '/Test/src/controller' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.File.create(File.java:113)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:276)
-	at org.eclipse.jdt.internal.core.CreateCompilationUnitOperation.executeOperation(CreateCompilationUnitOperation.java:122)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
-	at org.eclipse.jst.j2ee.internal.web.operations.NewWebClassOperation.generateUsingTemplates(NewWebClassOperation.java:139)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:99)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+java.lang.NoClassDefFoundError: org/eclipse/datatools/sqltools/result/ResultsViewAPI
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.<init>(ResultSupportRunnable.java:76)
+	at org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable.<init>(SimpleSQLResultRunnable.java:86)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:106)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:116)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.BaseExecuteAction.run(BaseExecuteAction.java:63)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.ExecuteSelectionSQLAction.run(ExecuteSelectionSQLAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:93)
+	at sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:305)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:579)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:648)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:438)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:381)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:93)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1190)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1051)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Control.traverse(Control.java:4274)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4124)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1268)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4142)
+	at org.eclipse.swt.widgets.Display.translateMnemonic(Display.java:4656)
+	at org.eclipse.swt.widgets.Display.filterMessage(Display.java:1208)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3530)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.core.filesystem 4 280 2019-06-14 16:26:49.194
-!MESSAGE Cannot create file, access denied: C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\Test\src\controller.
+!ENTRY org.eclipse.ui 4 0 2019-06-14 21:09:57.361
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.nio.file.AccessDeniedException: C:\Users\KGITBANK\Desktop\오후반\eclipseJSP\Test\src\controller
-	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
-	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
-	at java.nio.file.Files.createDirectory(Unknown Source)
-	at java.nio.file.Files.createAndCheckIsDirectory(Unknown Source)
-	at java.nio.file.Files.createDirectories(Unknown Source)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:310)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.write(FileSystemResourceManager.java:1200)
-	at org.eclipse.core.internal.resources.Folder.internalCreate(Folder.java:175)
-	at org.eclipse.core.internal.resources.Folder.create(Folder.java:108)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFolder(JavaModelOperation.java:292)
-	at org.eclipse.jdt.internal.core.CreatePackageFragmentOperation.executeOperation(CreatePackageFragmentOperation.java:93)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.createPackageFragment(PackageFragmentRoot.java:321)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.createJavaPackage(NewJavaEEArtifactClassOperation.java:134)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:96)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+java.lang.NoClassDefFoundError: org/eclipse/datatools/sqltools/result/ResultsViewAPI
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.<init>(ResultSupportRunnable.java:76)
+	at org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable.<init>(SimpleSQLResultRunnable.java:86)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:106)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:116)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.BaseExecuteAction.run(BaseExecuteAction.java:63)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.ExecuteSelectionSQLAction.run(ExecuteSelectionSQLAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:93)
+	at sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:305)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:579)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:648)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:438)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:381)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:93)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1190)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1051)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Control.traverse(Control.java:4274)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4124)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1268)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4142)
+	at org.eclipse.swt.widgets.Display.translateMnemonic(Display.java:4656)
+	at org.eclipse.swt.widgets.Display.filterMessage(Display.java:1208)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3530)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
 
-!ENTRY org.eclipse.jst.j2ee 4 0 2019-06-14 16:26:49.201
-!MESSAGE Resource '/Test/src/controller' does not exist.
-!STACK 1
-Java Model Exception: Core Exception [code 368] Resource '/Test/src/controller' does not exist.
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:282)
-	at org.eclipse.jdt.internal.core.CreateCompilationUnitOperation.executeOperation(CreateCompilationUnitOperation.java:122)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
-	at org.eclipse.jst.j2ee.internal.web.operations.NewWebClassOperation.generateUsingTemplates(NewWebClassOperation.java:139)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:99)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-Caused by: java.lang.Exception: Resource '/Test/src/controller' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.File.create(File.java:113)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:276)
-	... 72 more
-Caused by: org.eclipse.core.internal.resources.ResourceException(/Test/src/controller)[368]: java.lang.Exception: Resource '/Test/src/controller' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.File.create(File.java:113)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:276)
-	at org.eclipse.jdt.internal.core.CreateCompilationUnitOperation.executeOperation(CreateCompilationUnitOperation.java:122)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
-	at org.eclipse.jst.j2ee.internal.web.operations.NewWebClassOperation.generateUsingTemplates(NewWebClassOperation.java:139)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:99)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-06-14 16:26:49.201
-!MESSAGE Resource '/Test/src/controller' does not exist.
+!ENTRY org.eclipse.ui 4 0 2019-06-14 21:09:57.369
+!MESSAGE Unhandled event loop exception
 !STACK 0
-java.lang.Exception: Resource '/Test/src/controller' does not exist.
-	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
-	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
-	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
-	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
-	at org.eclipse.core.internal.resources.File.create(File.java:113)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.createFile(JavaModelOperation.java:276)
-	at org.eclipse.jdt.internal.core.CreateCompilationUnitOperation.executeOperation(CreateCompilationUnitOperation.java:122)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:807)
-	at org.eclipse.jdt.internal.core.PackageFragment.createCompilationUnit(PackageFragment.java:164)
-	at org.eclipse.jst.j2ee.internal.web.operations.NewWebClassOperation.generateUsingTemplates(NewWebClassOperation.java:139)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.doExecute(NewJavaEEArtifactClassOperation.java:99)
-	at org.eclipse.jst.j2ee.internal.common.operations.NewJavaEEArtifactClassOperation.execute(NewJavaEEArtifactClassOperation.java:69)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.createClass(AddJavaEEArtifactOperation.java:71)
-	at org.eclipse.jst.j2ee.internal.web.operations.AddWebClassOperation.doExecute(AddWebClassOperation.java:70)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation$1.run(AddJavaEEArtifactOperation.java:48)
-	at org.eclipse.jst.jee.model.internal.JEE5ModelProvider.modify(JEE5ModelProvider.java:271)
-	at org.eclipse.jst.jee.model.internal.Web25MergedModelProvider.modify(Web25MergedModelProvider.java:92)
-	at org.eclipse.jst.j2ee.internal.common.operations.AddJavaEEArtifactOperation.execute(AddJavaEEArtifactOperation.java:54)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard$1CatchThrowableRunnableWithProgress.run(DataModelWizard.java:220)
-	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:440)
-	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:356)
-	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:977)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.runOperations(DataModelWizard.java:229)
-	at org.eclipse.wst.common.frameworks.internal.datamodel.ui.DataModelWizard.performFinish(DataModelWizard.java:186)
-	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:775)
-	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:414)
-	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
-	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
-	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.jface.window.Window.runEventLoop(Window.java:822)
-	at org.eclipse.jface.window.Window.open(Window.java:798)
-	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
-	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
-	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
-	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
-	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
-	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
-	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:636)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+java.lang.NoClassDefFoundError: org/eclipse/datatools/sqltools/result/ResultsViewAPI
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.<init>(ResultSupportRunnable.java:76)
+	at org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable.<init>(SimpleSQLResultRunnable.java:86)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:106)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:116)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.BaseExecuteAction.run(BaseExecuteAction.java:63)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.ExecuteSelectionSQLAction.run(ExecuteSelectionSQLAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:93)
+	at sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:305)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:579)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:648)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:438)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:381)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:93)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1190)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1051)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Control.traverse(Control.java:4274)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4124)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1268)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Composite.translateMnemonic(Composite.java:1273)
+	at org.eclipse.swt.widgets.Control.translateMnemonic(Control.java:4142)
+	at org.eclipse.swt.widgets.Display.translateMnemonic(Display.java:4656)
+	at org.eclipse.swt.widgets.Display.filterMessage(Display.java:1208)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3530)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
-!SESSION 2019-06-14 16:27:20.790 -----------------------------------------------
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY org.eclipse.ui 4 0 2019-06-14 21:09:57.377
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/datatools/sqltools/result/ResultsViewAPI
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.<init>(ResultSupportRunnable.java:76)
+	at org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable.<init>(SimpleSQLResultRunnable.java:86)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:106)
+	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.<init>(GroupSQLResultRunnable.java:116)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.BaseExecuteAction.run(BaseExecuteAction.java:63)
+	at org.eclipse.datatools.sqltools.sqleditor.internal.actions.ExecuteSelectionSQLAction.run(ExecuteSelectionSQLAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:93)
+	at sun.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:161)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:305)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:579)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:648)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:438)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$2(KeyBindingDispatcher.java:381)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:93)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1190)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1051)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1076)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1099)
+	at org.eclipse.swt.widgets.Widget.wmSysChar(Widget.java:2262)
+	at org.eclipse.swt.widgets.Control.WM_SYSCHAR(Control.java:5438)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4841)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:345)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4765)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2303)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3532)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1170)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1059)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:667)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+!SESSION 2019-06-14 21:10:50.053 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 2 0 2019-06-14 21:11:03.620
+!MESSAGE Builtin LFS support not present/detected
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jgit.lfs.BuiltinLFS cannot be found by org.eclipse.egit.core_5.0.0.201806131550-r
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:508)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.egit.core.Activator.registerBuiltinLFS(Activator.java:279)
+	at org.eclipse.egit.core.Activator.start(Activator.java:212)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.egit.ui.Activator$RepositoryChangeScanner.<init>(Activator.java:921)
+	at org.eclipse.egit.ui.Activator.setupRepoChangeScanner(Activator.java:1034)
+	at org.eclipse.egit.ui.Activator.start(Activator.java:336)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:174)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$34.runWithException(Workbench.java:2378)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:32)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:95)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2373)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1654)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2859)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-14 21:11:11.875
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-06-14 21:12:16.989
+!MESSAGE An internal error occurred during: "Handle Result Sets".
+!STACK 0
+java.lang.NoSuchMethodError: org.apache.lucene.index.IndexWriter.addDocument(Ljava/lang/Iterable;)J
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:139)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSuccess(ResultSupportRunnable.java:422)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable$HandleSuccessJob.run(ResultSupportRunnable.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:13:41.032
+!MESSAGE No resource is associated with key "ResultHistoryLuceneIndex_io_error".
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:13:41.043
+!MESSAGE ResultHistoryLuceneIndex_io_error possible args: {0}, {1}, {2}, {3}
+!STACK 0
+org.apache.lucene.store.LockObtainFailedException: lock instance already obtained: (dir=RAMDirectory@580936b0 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@1176abeb, lockName=write.lock)
+	at org.apache.lucene.store.SingleInstanceLockFactory.obtainLock(SingleInstanceLockFactory.java:44)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:776)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:116)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSQLException(ResultSupportRunnable.java:459)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.run(ResultSupportRunnable.java:172)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:13:52.450
+!MESSAGE No resource is associated with key "ResultHistoryLuceneIndex_io_error".
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:13:52.455
+!MESSAGE ResultHistoryLuceneIndex_io_error possible args: {0}, {1}, {2}, {3}
+!STACK 0
+org.apache.lucene.store.LockObtainFailedException: lock instance already obtained: (dir=RAMDirectory@580936b0 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@1176abeb, lockName=write.lock)
+	at org.apache.lucene.store.SingleInstanceLockFactory.obtainLock(SingleInstanceLockFactory.java:44)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:776)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:116)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSuccess(ResultSupportRunnable.java:422)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable$HandleSuccessJob.run(ResultSupportRunnable.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:14:40.089
+!MESSAGE No resource is associated with key "ResultHistoryLuceneIndex_io_error".
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:14:40.095
+!MESSAGE ResultHistoryLuceneIndex_io_error possible args: {0}, {1}, {2}, {3}
+!STACK 0
+org.apache.lucene.store.LockObtainFailedException: lock instance already obtained: (dir=RAMDirectory@580936b0 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@1176abeb, lockName=write.lock)
+	at org.apache.lucene.store.SingleInstanceLockFactory.obtainLock(SingleInstanceLockFactory.java:44)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:776)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:116)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSuccess(ResultSupportRunnable.java:422)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable$HandleSuccessJob.run(ResultSupportRunnable.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:16:14.714
+!MESSAGE No resource is associated with key "ResultHistoryLuceneIndex_io_error".
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:16:14.720
+!MESSAGE ResultHistoryLuceneIndex_io_error possible args: {0}, {1}, {2}, {3}
+!STACK 0
+org.apache.lucene.store.LockObtainFailedException: lock instance already obtained: (dir=RAMDirectory@580936b0 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@1176abeb, lockName=write.lock)
+	at org.apache.lucene.store.SingleInstanceLockFactory.obtainLock(SingleInstanceLockFactory.java:44)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:776)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:116)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSuccess(ResultSupportRunnable.java:422)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable$HandleSuccessJob.run(ResultSupportRunnable.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:16:14.738
+!MESSAGE No resource is associated with key "ResultHistoryLuceneIndex_io_error".
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:16:14.745
+!MESSAGE ResultHistoryLuceneIndex_io_error possible args: {0}, {1}, {2}, {3}
+!STACK 0
+org.apache.lucene.store.LockObtainFailedException: lock instance already obtained: (dir=RAMDirectory@580936b0 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@1176abeb, lockName=write.lock)
+	at org.apache.lucene.store.SingleInstanceLockFactory.obtainLock(SingleInstanceLockFactory.java:44)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:776)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:116)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSuccess(ResultSupportRunnable.java:422)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable$HandleSuccessJob.run(ResultSupportRunnable.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:20:29.984
+!MESSAGE No resource is associated with key "ResultHistoryLuceneIndex_io_error".
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:20:29.990
+!MESSAGE ResultHistoryLuceneIndex_io_error possible args: {0}, {1}, {2}, {3}
+!STACK 0
+org.apache.lucene.store.LockObtainFailedException: lock instance already obtained: (dir=RAMDirectory@580936b0 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@1176abeb, lockName=write.lock)
+	at org.apache.lucene.store.SingleInstanceLockFactory.obtainLock(SingleInstanceLockFactory.java:44)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:776)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:116)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSuccess(ResultSupportRunnable.java:422)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable$HandleSuccessJob.run(ResultSupportRunnable.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:20:55.018
+!MESSAGE No resource is associated with key "ResultHistoryLuceneIndex_io_error".
+
+!ENTRY org.eclipse.datatools.sqltools.result 4 0 2019-06-14 21:20:55.024
+!MESSAGE ResultHistoryLuceneIndex_io_error possible args: {0}, {1}, {2}, {3}
+!STACK 0
+org.apache.lucene.store.LockObtainFailedException: lock instance already obtained: (dir=RAMDirectory@580936b0 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@1176abeb, lockName=write.lock)
+	at org.apache.lucene.store.SingleInstanceLockFactory.obtainLock(SingleInstanceLockFactory.java:44)
+	at org.apache.lucene.store.BaseDirectory.obtainLock(BaseDirectory.java:45)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:776)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResults(ResultHistoryLuceneIndex.java:116)
+	at org.eclipse.datatools.sqltools.result.internal.index.ResultHistoryLuceneIndex.addResult(ResultHistoryLuceneIndex.java:86)
+	at org.eclipse.datatools.sqltools.result.internal.index.HistoryIndexListener.resultInstanceStatusUpdated(HistoryIndexListener.java:53)
+	at org.eclipse.datatools.sqltools.result.ResultManager.fireStatusUpdated(ResultManager.java:135)
+	at org.eclipse.datatools.sqltools.result.internal.model.ResultInstance.updateStatus(ResultInstance.java:244)
+	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.updateStatus(ResultsViewAPI.java:563)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable.handleSuccess(ResultSupportRunnable.java:422)
+	at org.eclipse.datatools.sqltools.editor.core.result.ResultSupportRunnable$HandleSuccessJob.run(ResultSupportRunnable.java:302)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-06-14 21:21:44.482
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.datatools.sqltools.sqleditor.result.SimpleSQLResultRunnable
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-06-14 21:21:44.488
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable
+!SESSION 2019-06-14 21:21:52.675 -----------------------------------------------
 eclipse.buildId=4.10.0.I20181206-0815
 java.version=1.8.0_201
 java.vendor=Oracle Corporation
@@ -1426,35 +754,39 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.jface.text 2 0 2019-06-14 16:27:31.137
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-06-14 21:22:06.222
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-14 21:22:09.551
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
 
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-14 16:27:33.352
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-14 21:22:12.164
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.apidocs.rcp.views.apidocs' id and the 'Augmented Docs' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-14 21:22:12.462
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-06-14 17:06:10.735
-!MESSAGE No repository found at http://oss.opensagres.fr/tern.repository/1.2.0ect%2520a%2520site.
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-14 21:22:13.846
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.models.rcp.views.projectCoordinates' id and the 'Project Coordinates' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
 
-!ENTRY org.eclipse.jface.text 2 0 2019-06-14 17:49:53.801
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-14 21:22:13.987
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.models.rcp.views.modelRepositories' id and the 'Model Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-14 21:22:14.007
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.models.rcp.views.dependencyOverview' id and the 'Dependency Overview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-14 21:22:14.021
+!MESSAGE Removing part descriptor with the 'org.eclipse.wb.core.StructureView' id and the 'Structure' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-14 21:22:14.051
+!MESSAGE Removing part descriptor with the 'org.eclipse.wb.core.PaletteView' id and the 'Palette' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-14 21:22:14.067
+!MESSAGE Removing part descriptor with the 'com.genuitec.eclipse.icons.designer.ui.views.IconsDesignerView' id and the 'Icon Designer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-14 21:24:56.695
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-!SESSION 2019-06-14 18:02:37.536 -----------------------------------------------
-eclipse.buildId=4.10.0.I20181206-0815
-java.version=1.8.0_201
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
-Framework arguments:  -product org.eclipse.epp.package.jee.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
-
-!ENTRY org.eclipse.jface.text 2 0 2019-06-14 18:03:10.536
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
-
-!ENTRY org.eclipse.egit.ui 2 0 2019-06-14 18:03:17.317
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\KGITBANK'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

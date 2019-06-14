@@ -96,5 +96,34 @@ public class TelInfoDAO
       }
       return true;
     }
+    
+    public TelInfoVO search_nametel(String oriName) throws SQLException{
+    	TelInfoVO tv=new TelInfoVO();
+    	String sql = "select * from teltable5 where name=?";
+    	try
+    	{
+    		pstmt = con.prepareStatement(sql);
+    		pstmt.setString(1,oriName);
+    		rs = pstmt.executeQuery();
+    		if(rs.next())
+    		{
+    			tv.setId(rs.getInt("id"));
+    			tv.setName(rs.getString("name"));
+    			tv.setTel(rs.getString("tel"));
+    			tv.setDate(rs.getDate("d"));
+    			
+    		}
+    		else
+    		{
+    			tv=null;
+    		}
+    		
+    	}
+    	catch(SQLException e)
+    	{
+    		e.printStackTrace();
+    	}
+    	return tv;
+    }
 
 }
