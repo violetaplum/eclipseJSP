@@ -31,6 +31,8 @@ public class TelInfoVO {
 	{
 		this.d=d;
 	}
+	
+	
 	public int getId()
 	{
 		return this.id;

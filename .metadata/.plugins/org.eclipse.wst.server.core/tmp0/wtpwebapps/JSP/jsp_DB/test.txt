@@ -14,7 +14,7 @@ insert into TelTable5 values(1,'hong','010-7777-8888','20160201');
 insert into TelTable5 values(2,'park','010-3333-5555','20160207');
 
 insert into TelTable5 values(3,'choi','010-3333-5555','20160207');
-
+trim()
 
 
 <option value="Administration">Administration</option>

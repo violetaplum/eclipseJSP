@@ -25,7 +25,6 @@ response.setCharacterEncoding("utf-8");
 
 //TelInfoDAO tidao = new TelInfoDAO(); //패키지 이름부터 class까지 import 경로 잡아줘야함 //new 하는순간 메모리에 올라간다!!!><><><><
 ArrayList<TelInfoVO> tiArray = new TelInfoDAO().getAllInfo();
-
 %>
 
 <table border="2px">

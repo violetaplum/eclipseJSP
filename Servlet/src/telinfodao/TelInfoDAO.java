@@ -58,7 +58,7 @@ public class TelInfoDAO
             pstmt = con.prepareStatement(sql);
             rs = pstmt.executeQuery();//검색 명령어
             //결국 종이박스 안에 넣기
-
+            
             while(rs.next())
             {
                 //종이박스에서 꺼내기
@@ -99,7 +99,7 @@ public class TelInfoDAO
     
     public TelInfoVO search_nametel(String oriName) throws SQLException{
     	TelInfoVO tv=new TelInfoVO();
-    	String sql = "select * from teltable5 where name=?";
+    	String sql = "select * from TelTable5 where name=?";
     	try
     	{
     		pstmt = con.prepareStatement(sql);
