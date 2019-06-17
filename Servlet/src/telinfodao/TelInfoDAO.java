@@ -14,7 +14,7 @@ public class TelInfoDAO
         ResultSet rs = null;    //전역
     //PreaparedStatement ps1 = null; 로 먼저 선언해놓고
     //밑에서 ps1 = new con.prepareStatement(String)
- 
+
     //Connection.prepareStatement(String);
     //Connection.createStatement();
         //----------------------------------------------------------
@@ -58,7 +58,7 @@ public class TelInfoDAO
             pstmt = con.prepareStatement(sql);
             rs = pstmt.executeQuery();//검색 명령어
             //결국 종이박스 안에 넣기
-            
+
             while(rs.next())
             {
                 //종이박스에서 꺼내기
@@ -96,7 +96,7 @@ public class TelInfoDAO
       }
       return true;
     }
-    
+
     public TelInfoVO search_nametel(String oriName) throws SQLException{
     	TelInfoVO tv=new TelInfoVO();
     	String sql = "select * from TelTable5 where name=?";
@@ -111,13 +111,13 @@ public class TelInfoDAO
     			tv.setName(rs.getString("name"));
     			tv.setTel(rs.getString("tel"));
     			tv.setDate(rs.getDate("d"));
-    			
+
     		}
     		else
     		{
     			tv=null;
     		}
-    		
+
     	}
     	catch(SQLException e)
     	{
